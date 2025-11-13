@@ -16,3 +16,14 @@ Open MATLAB and run:
 ```matlab
 main
 ```
+## Repository
+```
+numericalsolvers/
+├── README.md               # Project documentation
+└── numericalsolvers/                    # Numerical solver implementations + main script
+    ├── main.m              # Entry point: runs all solvers on the Lorenz system
+    ├── EulerSolver.m       # Euler integration method
+    ├── RK4Solver.m         # Classical Runge–Kutta 4 solver
+    ├── IRK4Solver.m        # Implicit RK4 (Gauss–Legendre) solver
+    └── lorenz.m            # Lorenz system (dx/dt, dy/dt, dz/dt)
+```
